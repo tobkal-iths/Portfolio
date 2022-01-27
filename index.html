@@ -9,7 +9,7 @@
     <title>Tobias Källkvist - Portfolio</title>
 </head>
 <body class="bg-dark">
-    <div class="container-lg p-0">
+    <div class="container-md p-0">
         <!-- Title Area -->
         <div class="p-3 title-gradient">
             <div class="container justify-content-around">
@@ -39,57 +39,30 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a onclick="navigateToAbout()" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">About Me</div></a>
+                        <a onclick="navigate('pages/about.html')" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">About Me</div></a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="navigateToCV()"  href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">CV</div></a>
+                        <a onclick="navigate('pages/resume.html')"  href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Resumé</div></a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="navigateByFile()" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Links</div></a>
+                        <a onclick="navigate('pages/links.html')" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Links</div></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Contact</div></a>
+                        <a onclick="navigate('pages/contact.html')" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Contact</div></a>
                     </li>
                 </ul>
             </div>
         </nav>
 
         <!-- Content Area -->
-        <section id="contentArea" class="custom-text-light">
-            <div class="container-md">
-                <!-- Introduction -->
-                <article class="m-1 py-2">
-                    <h2 class="display-5">Introduction</h2>
-                    <div class="col-5 float-end border-light rounded border border-4">
-                        <img class="portrait-img img-fluid" src="./assets/portrait/portrait_goof_256.png" alt="Portrait of Tobias." class="img-fluid border custom-border-primary border-4 mt-4">
-                    </div>
-                    <p class="border-start border-light border-4 mt-3 ps-3 fs-2 fs-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deleniti corporis, quia possimus magni repellendus ducimus. Odit cum cupiditate corrupti!</p>
-                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo sint iusto? Eveniet vitae obcaecati, culpa, corporis, iste ea nesciunt eaque soluta dolores odio quibusdam. Molestiae, voluptatum numquam obcaecati vero amet, iure accusamus id ipsam blanditiis similique quis sunt modi libero quaerat sed harum repudiandae ex asperiores quibusdam cupiditate itaque.</p>
-                </article>
-                <!-- Experience -->
-                <article class="m-1 py-2">
-                    <h2 class="display-5">Experience</h2>
-                    <p class="border-start border-light border-4 mt-3 ps-3 fs-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deleniti corporis, quia possimus magni repellendus ducimus. Odit cum cupiditate corrupti!</p>
-                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo sint iusto? Eveniet vitae obcaecati, culpa, corporis, iste ea nesciunt eaque soluta dolores odio quibusdam. Molestiae, voluptatum numquam obcaecati vero amet, iure accusamus id ipsam blanditiis similique quis sunt modi libero quaerat sed harum repudiandae ex asperiores quibusdam cupiditate itaque.</p>
-                </article>
-                <!-- Education -->
-                <article class="container m-1 py-2">
-                    <h2 class="display-5">Education</h2>
-                    <p class="border-start border-light border-4 mt-3 ps-3 fs-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deleniti corporis, quia possimus magni repellendus ducimus. Odit cum cupiditate corrupti!</p>
-                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo sint iusto? Eveniet vitae obcaecati, culpa, corporis, iste ea nesciunt eaque soluta dolores odio quibusdam. Molestiae, voluptatum numquam obcaecati vero amet, iure accusamus id ipsam blanditiis similique quis sunt modi libero quaerat sed harum repudiandae ex asperiores quibusdam cupiditate itaque.</p>
-                </article>
-                <!-- Hobbies -->
-                <article class="container m-1 py-2">
-                    <h2 class="display-5">Hobbies</h2>
-                    <p class="border-start border-light border-4 mt-3 ps-3 fs-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deleniti corporis, quia possimus magni repellendus ducimus. Odit cum cupiditate corrupti!</p>
-                    <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo sint iusto? Eveniet vitae obcaecati, culpa, corporis, iste ea nesciunt eaque soluta dolores odio quibusdam. Molestiae, voluptatum numquam obcaecati vero amet, iure accusamus id ipsam blanditiis similique quis sunt modi libero quaerat sed harum repudiandae ex asperiores quibusdam cupiditate itaque.</p>
-                </article>
-                <div class="spacer"></div>
-            </div>
-        </section>
+        <main id="contentArea" class="custom-text-light">
+        </main>
+
+        <!-- Spacer -->
+        <div class="spacer"></div>
 
         <!-- Footer -->
-        <div class="container-lg fixed-bottom custom-bg-secondary">
+        <div class="container-md fixed-bottom custom-bg-secondary">
             <footer class="d-flex flex-wrap justify-content-between align-items-center">
                 <!-- Signature -->
                 <ul class="nav fs-4">
@@ -124,6 +97,6 @@
 
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- <script src="/script/script.js"></script> -->
+    <script src="/script/script.js"></script>
 </body>
 </html>
