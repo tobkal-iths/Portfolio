@@ -1,0 +1,115 @@
+/* COLOR VARIABLES */
+:root {
+    --primary: #A7AC93;
+    --secondary: #B17330;
+
+    --success: #3D7B46;
+    --info: #256EFF;
+    --warning: #FF8811;
+    --danger: #CC3F0C;
+
+    --light: #FFF1EB;
+    --dark: #1C252A;
+  }
+
+/* TEXT COLORS */
+.custom-text-primary {
+    color: var(--primary);
+}
+.custom-text-secondary {
+    color: var(--secondary);
+}
+.custom-text-success {
+    color: var(--success);
+}
+.custom-text-info {
+    color: var(--info);
+}
+.custom-text-warning {
+    color: var(--warning);
+}
+.custom-text-danger {
+    color: var(--danger);
+}
+.custom-text-light {
+    color: var(--light);
+}
+.custom-text-dark {
+    color: var(--dark);
+}
+
+/* BACKGROUND COLORS */
+.custom-bg-primary {
+    background-color: var(--primary);
+}
+.custom-bg-secondary {
+    background-color: var(--secondary);
+}
+.custom-bg-success {
+    background-color: var(--success);
+}
+.custom-bg-info {
+    background-color: var(--info);
+}
+.custom-bg-warning {
+    background-color: var(--warning);
+}
+.custom-bg-danger {
+    background-color: var(--danger);
+}
+.custom-bg-light {
+    background-color: var(--light);
+}
+.custom-bg-dark {
+    background-color: var(--dark);
+}
+
+/* BORDER COLORS */
+.custom-border-primary {
+    border-color: var(--primary);
+}
+.custom-border-secondary {
+    border-color: var(--secondary);
+}
+.custom-border-success {
+    border-color: var(--success);
+}
+.custom-border-info {
+    border-color: var(--info);
+}
+.custom-border-warning {
+    border-color: var(--warning);
+}
+.custom-border-danger {
+    border-color: var(--danger);
+}
+.custom-border-light {
+    border-color: var(--light);
+}
+.custom-border-dark {
+    border-color: var(--dark);
+}
+
+/* NAV LINK */
+.nav-link {
+    color: var(--dark);
+}
+.nav-link:hover {
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+/* ICON HOVER */
+.custom-hover-icon:hover {
+    color: var(--light);
+}
+
+/* TITLE GRADIENT */
+.title-gradient {
+    background-image: linear-gradient(to top, var(--dark), #010F13);
+}
+
+/* SPACER */
+.spacer {
+    height: 50px;
+}
