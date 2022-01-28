@@ -1,5 +1,5 @@
 onload = function() {
-    navigate('pages/about.html');
+    navigate('pages/resume.html');
 }
 
 function navigate(path) {
