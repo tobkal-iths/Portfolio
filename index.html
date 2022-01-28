@@ -476,7 +476,25 @@
                 <div class="spacer"></div>
 
                 <!-- Header -->
-                <h2 class="display-3 font-title-alt">Contact</h2>
+                <h2 class="display-3 text-center font-title-alt">Contact</h2>
+
+                <div class="container px-5">
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="subjectInput" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subjectInput" placeholder="Your subject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your message:</label>
+                        <textarea class="form-control" id="textInput" rows="3"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+                </div>
 
                 <!--
                     A contact form.
