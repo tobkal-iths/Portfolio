@@ -81,9 +81,17 @@
     height: 50px;
 }
 
+/* SPACER */
+.spacer-big {
+    height: 20%;
+}
+
 /* BACKGROUND SHAPES */
 .pos-rel {
     position: relative;
+}
+
+.o-flow {
     overflow: hidden;
 }
 
