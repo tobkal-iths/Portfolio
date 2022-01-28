@@ -13,6 +13,19 @@
     --dark2: #313c3f;
 }
 
+/* FONT FAMILIES */
+.font-title {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.font-title-alt {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.font-quote {
+    font-family: 'Architects Daughter', cursive;
+}
+
 /* TEXT COLORS */
 .custom-text-primary {
     color: var(--primary);
@@ -73,6 +86,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .bg-rect {
     background-color: var(--dark2);
     position: absolute;
@@ -105,10 +119,10 @@
 }
 
 /* ROT CARD */
-.rot-card-p5 {
-    rotate: 5deg;
+.rot-card1 {
+    rotate: -3deg;
 }
 
-.rot-card-n5 {
-    rotate: -5deg;
+.rot-card2 {
+    rotate: 5deg;
 }
