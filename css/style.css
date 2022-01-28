@@ -10,6 +10,7 @@
 
     --light: #f0e8c3;
     --dark: #1C252A;
+    --dark2: #313c3f;
 }
 
 /* TEXT COLORS */
@@ -63,6 +64,9 @@
 .custom-bg-dark {
     background-color: var(--dark);
 }
+.custom-bg-dark2 {
+    background-color: var(--dark2);
+}
 
 /* BORDER COLORS */
 .custom-border-primary {
@@ -112,4 +116,51 @@
 /* SPACER */
 .spacer {
     height: 50px;
+}
+
+/* BACKGROUND SHAPES */
+
+/*
+.bg-shape {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+*/
+
+.pos-rel {
+    position: relative;
+    overflow: hidden;
+}
+.bg-rect {
+    background-color: var(--dark2);
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+}
+
+.bg-rect.rect1 {
+    height: 96%;
+    width: 200%;
+    left: -50%;
+    top: 2%;
+    rotate: 3deg;
+}
+
+.bg-rect.rect2 {
+    height: 50%;
+    width: 100%;
+    left: 30%;
+    top: 2%;
+    rotate: -8deg;
+}
+
+.bg-rect.rect3 {
+    height: 200%;
+    width: 200%;
+    left: -50%;
+    top: 0%;
+    rotate: -2deg;
 }

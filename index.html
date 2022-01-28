@@ -19,7 +19,7 @@
                         <div class="display-5 custom-text-secondary">Portfolio</div>
                     </div>
                     <div class="col-6 col-md-4 d-none d-sm-block">
-                        <img class="img-fluid" src="assets/pine_logo/pine_logo_alt_256.png" alt="Stylized silhouette of a bird in the sky and three mushrooms beneath a pine tree.">
+                        <img class="img-fluid" src="assets/logos/pine_logo.svg" alt="Stylized silhouette of a bird in the sky and three mushrooms beneath a pine tree.">
                     </div>
                 </div>
             </div>
@@ -39,16 +39,16 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a onclick="navigate('pages/about.html')" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">About Me</div></a>
+                        <a href="#about" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">About Me</div></a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="navigate('pages/resume.html')"  href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Resume</div></a>
+                        <a href="#resume" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Resume</div></a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="navigate('pages/links.html')" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Links</div></a>
+                        <a href="#links" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Links</div></a>
                     </li>
                     <li class="nav-item">
-                        <a onclick="navigate('pages/contact.html')" href="#" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Contact</div></a>
+                        <a onclick="navigate('pages/contact.html')" href="#contact" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">Contact</div></a>
                     </li>
                 </ul>
             </div>
@@ -56,14 +56,397 @@
 
         <!-- Content Area -->
         <main id="contentArea">
-        </main>
 
-        <!-- Spacer -->
-        <div class="spacer"></div>
+            <!-- ABOUT ME -->
+            <section id="about" class="p-3 custom-text-primary">
+
+                <!-- Spacer -->
+                <div class="spacer"></div>
+                
+                <!-- Header -->
+                <h2 class="display-3">.NET Developer</h2>
+
+                <!-- Portrait -->
+                <figure class="col-4 col-md-3 col-xl-2 float-end border-light rounded border border-4 m-3">
+                    <img class="img-fluid" src="assets/img/portrait_256.png" alt="Portrait of Tobias.">
+                </figure>
+
+                <!-- Introduction -->
+                <p class="border-start border-light border-4 custom-text-light mt-3 ps-3 fs-2 fs-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deleniti corporis, quia possimus magni repellendus ducimus. Odit cum cupiditate corrupti!</p>
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo sint iusto? Eveniet vitae obcaecati, culpa, corporis, iste ea nesciunt eaque soluta dolores odio quibusdam. Molestiae, voluptatum numquam obcaecati vero amet, iure accusamus id ipsam blanditiis similique quis sunt modi libero quaerat sed harum repudiandae ex asperiores quibusdam cupiditate itaque.</p>
+
+                <!-- Quote -->
+                <figure class="text-end">
+                    <blockquote class="blockquote">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                </figure>
+
+                <!-- Personal summary -->
+                <p class="border-start border-light border-4 custom-text-light mt-3 ps-3 fs-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deleniti corporis, quia possimus magni repellendus ducimus. Odit cum cupiditate corrupti!</p>
+
+                <!-- Trivia -->
+                <p class="fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo sint iusto? Eveniet vitae obcaecati, culpa, corporis, iste ea nesciunt eaque soluta dolores odio quibusdam. Molestiae, voluptatum numquam obcaecati vero amet, iure accusamus id ipsam blanditiis similique quis sunt modi libero quaerat sed harum repudiandae ex asperiores quibusdam cupiditate itaque.</p>
+            </section>
+
+            <!-- RESUME -->
+            <section id="resume" class="p-3 custom-text-primary pos-rel">
+
+                <!-- Background Rects -->
+                <div class="bg-rect rect1"></div>
+                <div class="bg-rect rect2"></div>
+
+                <!-- Spacer -->
+                <div class="spacer"></div>
+
+                <!-- Header -->
+                <h2 class="display-3 text-center mb-4">Resume</h2>
+
+                <!-- Skills -->
+                <section class="container">
+                    <div class="row row-cols-1 row-cols-md-2 align-items-center justify-content-md-evenly">
+                        
+                        <!-- PLACEHOLDER IMAGE -->
+                        <figure class="col">
+                            <img class="img-fluid d-block m-auto border custom-border-primary border-4 rounded-1" src="assets/img/test_image_256.png" alt="Placeholder text">
+                        </figure>
+                        
+                        <!-- SKILLS CARD -->
+                        <figure class="col">
+                            <div class="card custom-text-dark custom-bg-primary pb-3">
+                                <div class="card-header">
+                                    <h4 class="card-title text-center">Skills</h4>
+                                </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item custom-bg-primary">
+                                            <ul class="nav align-items-center fs-5">
+                                                <i class="bi bi-bookmarks-fill mx-2"></i>
+                                                Skill 1
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item custom-bg-primary">
+                                            <ul class="nav align-items-center fs-5">
+                                                <i class="bi bi-heart-fill mx-2"></i>
+                                                Skill 2
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item custom-bg-primary">
+                                            <ul class="nav align-items-center fs-5">
+                                                <i class="bi bi-lightbulb-fill mx-2"></i>
+                                                Skill 3
+                                            </ul>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+
+                <hr class="border border-1">
+
+                <!-- Toolbox -->
+                <section class="m-1 py-2">
+
+                    <!-- TOOLBOX CARD (Should be big) -->
+                    <figure class="card custom-text-dark custom-bg-primary pb-3">
+                        <div class="card-header">
+                            <h4 class="card-title text-center">Toolbox</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row row-cols-3 row-cols-md-4 row-cols-lg-5 justify-content-evenly">
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                                <!-- PLACEHOLDER TOOL -->
+                                <div class="col custom-bg-primary custom-text-dark text-center">
+                                    <div class="col-4 m-auto">
+                                        <img class="img-fluid d-block m-auto" src="assets/logos/placeholder_logo_color.svg" alt="Placeholder logo">
+                                    </div>
+                                    <p">PLACEHOLDER</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </figure>
+                </section>
+
+                <hr class="border border-1">
+
+                <!-- Education -->
+                <section class="m-1 py-2">  
+
+                    <!-- Icon -->
+                    <div class="display-1 mb-3 text-center">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+
+                    <!-- Header -->
+                    <h2 class="display-4 custom-text-primary text-center mb-2">Education</h2>
+
+                    <div class="row row-cols-1 row-cols-md-2 align-items-center">
+
+                        <!-- ITHS CARD -->
+                        <figure class="col">
+                            <div class="card custom-text-dark custom-bg-primary pb-3">
+                                <div class="card-header">
+                                    <h4 class="card-title text-center">.NET Development</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="nav align-items-center fs-6">
+                                        <li class="mx-3">
+                                            <i class="bi bi-geo-alt-fill"></i>
+                                        </li>
+                                        <li>
+                                            IT-Högskolan, Göteborg
+                                        </li>
+                                    </ul>
+                                    <ul class="nav align-items-center fs-6">
+                                        <li class="mx-3">
+                                            <i class="bi bi-calendar-fill"></i>
+                                        </li>
+                                        <li>
+                                            2021-2023
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </figure>
+
+                        <!-- GOTLAND CARD -->
+                        <figure class="col">
+                            <div class="card custom-text-dark custom-bg-primary pb-3">
+                                <div class="card-header">
+                                    <h4 class="card-title text-center">Game Design & Graphics</h4>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="nav align-items-center fs-6">
+                                        <li class="mx-3">
+                                            <i class="bi bi-geo-alt-fill"></i>
+                                        </li>
+                                        <li>
+                                            Högskolan på Gotland, Visby
+                                        </li>
+                                    </ul>
+                                    <ul class="nav align-items-center fs-6">
+                                        <li class="mx-3">
+                                            <i class="bi bi-calendar-fill"></i>
+                                        </li>
+                                        <li>
+                                            2007-2011
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+                
+                <!-- Spacer -->
+                <div class="spacer"></div>
+            </section>
+
+            <!-- LINKS -->
+            <section id="links" class="p-3 custom-text-primary">
+
+                <!-- Spacer -->
+                <div class="spacer"></div>
+
+                <!-- Header -->
+                <h2 class="display-3">Links</h2>
+
+                <!--
+                    LinkedIn
+                    Github
+                    Anything else??
+                -->
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="p-3 custom-text-primary pos-rel">
+
+                <!-- Background Rect -->
+                <div class="bg-rect rect3"></div>
+
+                <!-- Spacer -->
+                <div class="spacer"></div>
+
+                <!-- Header -->
+                <h2 class="display-3">Contact</h2>
+
+                <!--
+                    A contact form.
+                    instructions
+
+                    Check out bootstrap forms
+
+                    E-mail
+                    subject
+                    text
+                    submit
+                -->
+
+                <!-- Spacer -->
+                <div class="spacer"></div>
+            </section>
+        </main>
 
         <!-- Footer -->
         <div class="container-md fixed-bottom custom-bg-secondary">
             <footer class="d-flex flex-wrap justify-content-between align-items-center">
+
                 <!-- Signature -->
                 <ul class="nav fs-4">
                     <li>
@@ -73,6 +456,7 @@
                         <div class="custom-text-dark fs-5 mx-1">Tobias Källkvist, 2022</div>
                     </li>
                 </ul>
+
                 <!-- Social Links -->
                 <ul class="nav justify-content-end fs-4">
                     <li>
@@ -97,6 +481,5 @@
 
     <!-- Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="script/script.js"></script>
 </body>
 </html>
