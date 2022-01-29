@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="456" height="456" fill="none" version="1.1" viewBox="0 0 456 456" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>Placeholder Logo</title>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>Placeholder Logo</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <g transform="matrix(5.1767 0 0 5.1767 -143.25 -542.11)" fill="#1c252a" style="font-variation-settings:'wght' 700;shape-inside:url(#rect3425);white-space:pre" aria-label="SQL">
+   <path d="m44.675 162.26c6.8 0 10.88-3.32 10.88-8.56 0-10-14.64-6.52-14.64-12.12 0-2.16 1.96-3.32 5.4-3.32 2.32 0 4.84 0.44 6.8 1.2l1.48-4.12c-2.32-1.04-5.24-1.6-7.96-1.6-6.64 0-11.08 3.4-11.08 8.6 0 9.48 14.56 6.4 14.56 12.04 0 2-1.76 3.28-5.2 3.28-2.52 0-5.6-0.6-8.32-1.72l-1.48 4.16c2.96 1.32 6.36 2.16 9.56 2.16z"/>
+   <path d="m71.915 162.22c8.32 0 13.88-5.76 13.88-14.48 0-8.4-5.4-14-13.48-14-8.24 0-13.72 5.76-13.72 14.44 0 8.44 5.32 14.04 13.32 14.04zm11.48 1.56 3.16-3.04-12.68-12-3 3.08zm-11.08-6.04c-5.16 0-8.44-3.84-8.44-10 0-5.84 3.12-9.52 8.04-9.52 5.24 0 8.6 3.84 8.6 9.96 0 5.84-3.2 9.56-8.2 9.56z"/>
+   <path d="m91.195 161.86h17.12v-4.56h-11.96v-23.2h-5.16z"/>
+  </g>
+ </g>
+</svg>

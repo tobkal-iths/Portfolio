@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="456" height="456" fill="none" version="1.1" viewBox="0 0 456 456" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <title>Placeholder Logo</title>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>Placeholder Logo</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <g transform="matrix(.9366 0 0 .9366 -11.273 -50.048)" fill="#1c252a">
+   <path d="m200.66 266.68h55.338v-42.92h-59.169zm-111.98-154.69 30.47 341.74 136.76 37.966 136.89-37.948 30.507-341.76h-334.63zm278.01 320-110.69 30.687v-43.494l-0.067 0.02-85.858-23.835-6.004-67.298h42.075l3.116 34.914 46.68 12.607 0.059-0.019v-66.973h-93.669l-11.306-126.75h104.97v-41.914h136.77z"/>
+   <path d="m307.59 308.59h-51.592v66.974l46.728-12.613zm-51.592-168.66v41.914h104.98l-3.754 41.915h-101.22v42.92h97.406l-11.499 128.68-85.907 23.815v43.494l110.69-30.687 26.071-292.06h-136.76z" opacity=".8"/>
+   <g opacity=".2">
+    <polygon points="256 266.68 200.66 266.68 196.83 223.76 256 223.76 256 181.84 151.02 181.84 162.33 308.59 256 308.59"/>
+    <polygon points="164.07 328.06 170.07 395.36 255.93 419.19 256 419.17 256 375.56 255.94 375.58 209.26 362.98 206.15 328.06"/>
+   </g>
+  </g>
+ </g>
+</svg>

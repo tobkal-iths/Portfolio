@@ -71,6 +71,19 @@
     color: var(--light);
 }
 
+.card-hover > a {
+    color: var(--dark);
+}
+
+.card-hover:hover {
+    background-color: var(--dark2);
+    border-radius: 5px;
+}
+
+.card-hover:hover > a {
+    color: var(--secondary);
+}
+
 /* TITLE GRADIENT */
 .title-gradient {
     background-image: linear-gradient(to top, var(--dark2), var(--dark));
