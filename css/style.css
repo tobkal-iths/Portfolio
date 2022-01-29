@@ -66,16 +66,16 @@
     background-color: var(--light);
 }
 
-/* ICON HOVER */
+/* LINKS */
 .custom-hover-icon:hover {
     color: var(--light);
 }
 
-.card-hover > a {
+.card-link {
     color: var(--dark);
 }
 
-.card-hover:hover > a {
+.card-link:hover {
     color: var(--secondary);
 }
 
