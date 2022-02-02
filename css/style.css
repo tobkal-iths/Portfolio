@@ -99,7 +99,7 @@
 
 /* SPACER */
 .spacer-big {
-    height: 20%;
+    height: 100px;
 }
 
 /* BACKGROUND SHAPES */
@@ -123,7 +123,7 @@
     width: 200%;
     left: -50%;
     top: 2%;
-    rotate: 3deg;
+    transform: rotate(3deg);
 }
 
 .bg-rect.rect2 {
@@ -131,7 +131,7 @@
     width: 100%;
     left: 30%;
     top: 2%;
-    rotate: -8deg;
+    transform: rotate(-8deg);
 }
 
 .bg-rect.rect3 {
@@ -139,15 +139,15 @@
     width: 200%;
     left: -50%;
     top: 8%;
-    rotate: -2deg;
+    transform: rotate(-2deg);
 }
 
 /* ROT CARD */
 
 .rot-card1 {
-    rotate: -2deg;
+    transform: rotate(-2deg);
 }
 
 .rot-card2 {
-    rotate: 5deg;
+    transform: rotate(5deg);
 }

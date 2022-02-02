@@ -1,15 +1,20 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tobias Källkvist">
+    <meta name="keywords" content="Tobias, Källkvist, Portfolio, developer, programming, .NET, dotnet, HTML, CSS, JavaScript">
+    <meta name="description" content=".NET-developer Tobias Källkvist's online portfolio.">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     
-    <!-- Google Fonts -->
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Josefin+Sans&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
@@ -21,24 +26,24 @@
 </head>
 <body class="bg-dark">
     <div class="container-md p-0">
-        <!-- Title Area -->
-        <div class="p-3 title-gradient">
+        <!-- Banner -->
+        <header class="p-3 title-gradient" aria-label="Banner">
             <div class="container justify-content-around">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-6 col-md-6 text-end">
-                        <div class="display-1 custom-text-primary font-title">Tobias Källkvist</div>
-                        <div class="display-6 custom-text-secondary font-title-alt">Portfolio</div>
+                        <h1 class="display-1 custom-text-primary font-title">Tobias Källkvist</h1>
+                        <h2 class="display-6 custom-text-secondary font-title-alt">Portfolio</h2>
                     </div>
                     <div class="col-6 col-md-4 d-none d-sm-block">
                         <img class="img-fluid" src="assets/svg/pine_logo.svg" alt="Stylized silhouette of a bird in the sky and three mushrooms beneath a pine tree.">
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
 
         <!-- Navbar -->
-        <nav class="sticky-top navbar navbar-expand-md navbar-light custom-bg-secondary p-0">
-            <a class="navbar-brand fw-bold custom-text-dark ms-3" href="#">
+        <nav class="sticky-top navbar navbar-expand-md navbar-light custom-bg-secondary p-0" aria-label="Navigation bar">
+            <a class="navbar-brand fw-bold custom-text-dark ms-3" href="#" aria-label="Home">
                 <i class="bi bi-house-fill fs-4 custom-text-dark custom-hover-icon"></i>
             </a>
             <!-- Toggle button for mobile nav -->
@@ -48,7 +53,7 @@
             
             <!-- Navbar links -->
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" aria-label="Navigation links">
                     <li class="nav-item">
                         <a href="#about" class="nav-link fw-bold text-dark"><div class="ms-3 mx-md-1">About Me</div></a>
                     </li>
@@ -65,94 +70,88 @@
             </div>
         </nav>
 
-        <!-- Content Area -->
-        <main id="contentArea">
+        <!-- Content area -->
+        <main id="contentArea" aria-label="Main">
 
-            <!-- ABOUT ME -->
-            <section id="about" class="p-3 custom-text-primary">
+            <!-- About me -->
+            <section id="about" class="p-3 custom-text-primary" aria-label="About section">
 
                 <!-- Spacer -->
                 <div class="spacer"></div>
                 
                 <!-- Header -->
-                <h2 class="display-3 font-title-alt">Hi, my name is Tobias!</h2>
+                <h1 class="display-3 font-title-alt">Hi, my name is Tobias!</h1>
 
                 <!-- Portrait -->
-                <figure class="col-4 col-md-3 col-xl-2 float-end border-light rounded border border-4 m-3">
+                <figure class="col-4 col-md-3 col-xl-2 float-end border-light rounded border border-4 m-3" aria-label="Portrait">
                     <img class="img-fluid" src="assets/img/portrait_256.png" alt="Portrait of Tobias.">
                 </figure>
 
                 <!-- Introduction -->
-                <p class="font-title-alt border-start border-light border-4 custom-text-light mt-3 ps-3 fs-2 fs-md-4">I'm a modern .NET developer with a wide skill-set, a curiosity for technical solutions and strong passion for creativity.</p>
-                <p class="fs-5">I have experience with a wide array of tools and frameworks ranging from full-stack .NET development, database management and web-dev to 3d modelling applications, vector graphics and illustration software.</p>
-                <p class="fs-5">At present I am studying .NET development at <a href="https://www.iths.se/" target="_blank" class="text-link">IT-Högskolan, Gothenburg</a>, and will be graduating in 2023. If you have any open positions or rooms for an intern then feel free to <a href="#contact" class="text-link"> throw me an e-mail</a> about it.</p>
+                <p class="font-title-alt border-start border-light border-4 custom-text-light mt-3 ps-3 fs-2 fs-md-4" aria-label="Introduction">I'm a modern .NET developer with a wide skill-set, a curiosity for technical solutions and strong passion for creativity.</p>
+                <p class="fs-5" aria-label="Experiences">I have experience with a wide array of tools and frameworks ranging from full-stack .NET development, database management and web-dev to 3d modelling applications, vector graphics and illustration software.</p>
+                <p class="fs-5" aria-label="At present">At present I am studying .NET development at <a rel="noopener noreferrer" href="https://www.iths.se/" target="_blank" class="text-link">IT-Högskolan, Gothenburg</a>, and will be graduating in 2023. If you have any open positions or rooms for an intern then feel free to throw me an <a rel="noopener noreferrer" href="#contact" class="text-link">e-mail</a> about it.</p>
 
                 <!-- Quote -->
-                <div class="ms-5 ps-5 rot-card1 my-5">
-
-                    <figure class="text-end font-quote">
-                        <blockquote class="blockquote fs-1">
-                        I'm at my best when I get to solve problems!
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                        Tobias
-                        </figcaption>
-                    </figure>
-                </div>
+                <figure class="ms-5 ps-5 rot-card1 my-5 text-end font-quote" aria-label="Quote">
+                    <blockquote class="blockquote fs-1">
+                        "I'm at my best when I get to solve problems!"
+                    </blockquote>
+                </figure>
 
                 <!-- Personal summary -->
-                <p class="font-title-alt border-start border-light border-4 custom-text-light mt-3 ps-3 fs-2">Over the years I have developed a mind for problem-solving and have recently found a love for programming at large.</p>
+                <p class="font-title-alt border-start border-light border-4 custom-text-light mt-3 ps-3 fs-2" aria-label="Personal summary">Over the years I have developed a mind for problem-solving and have recently found a love for programming at large.</p>
 
                 <!-- Trivia -->
-                <p class="fs-5">Apart from keeping up with news, in tech as well as in general, I tend to spend my time practicing drawing, plucking away at my guitar or going for the occational painting session 'en plein air'. I've been creating in one form or another for as long as I can remember and I don't see myself stopping any time soon.</p>
+                <p class="fs-5" aria-label="Trivia">Apart from keeping up with news, in tech as well as in general, I tend to spend my time practicing drawing, plucking away at my guitar or going for the occational painting session 'en plein air'. I've been creating in one form or another for as long as I can remember and I don't see myself stopping any time soon.</p>
             </section>
 
-            <!-- RESUME -->
-            <section id="resume" class="p-3 custom-text-primary pos-rel o-flow">
+            <!-- Résumé -->
+            <section id="resume" class="p-3 custom-text-primary pos-rel o-flow" aria-label="Résumé section">
 
-                <!-- Background Rects -->
-                <div class="bg-rect rect1"></div>
-                <div class="bg-rect rect2"></div>
+                <!-- Background rects -->
+                <div class="bg-rect rect1" aria-hidden="true"></div>
+                <div class="bg-rect rect2" aria-hidden="true"></div>
 
                 <!-- Spacer -->
                 <div class="spacer"></div>
 
                 <!-- Header -->
-                <h2 class="font-title-alt display-3 text-center">Résumé</h2>
+                <h1 class="font-title-alt display-3 text-center">Résumé</h1>
 
-                <!-- Skills -->
-                <section class="container">
+                <!-- Current projects -->
+                <section class="container" aria-label="Current projects">
                     <div class="row row-cols-1 row-cols-md-2 align-items-center justify-content-md-evenly">
                         
                         <!-- Skill icon -->
-                        <figure class="col-10 col-md col-lg-6 m-auto p-5">
+                        <figure class="col-10 col-md col-lg-6 m-auto p-5" aria-label="Icon">
                                 <img class="img-fluid d-block m-auto" src="assets/svg/skill_icon.svg" alt="Stylized icon of a pen and wrench crossed over a gear cog.">
                         </figure>
                         
-                        <!-- PROJECTS CARD -->
-                        <figure class="col rot-card2 p-5">
+                        <!-- Projects card -->
+                        <figure class="col rot-card2 p-5" aria-label="Projects card">
                             <div class="card custom-text-dark custom-bg-primary pb-3">
                                 <div class="card-header">
-                                    <h4 class="card-title text-center">Currently working on...</h4>
+                                    <h2 class="card-title text-center">Currently working on...</h2>
                                 </div>
                                     <ul class="list-group list-group-flush">
-                                        <li class="list-group-item custom-bg-primary">
-                                            <ul class="nav align-items-center fs-5">
+                                        <li class="list-group-item custom-bg-primary"">
+                                            <div class="nav align-items-center fs-5">
                                                 <i class="bi bi-bookmarks-fill mx-2"></i>
                                                 Finishing up my .NET studies.
-                                            </ul>
+                                            </div>
                                         </li>
                                         <li class="list-group-item custom-bg-primary">
-                                            <ul class="nav align-items-center fs-5">
+                                            <div class="nav align-items-center fs-5">
                                                 <i class="bi bi-heart-fill mx-2"></i>
                                                 Brushing up on my illustration skills.
-                                            </ul>
+                                            </div>
                                         </li>
                                         <li class="list-group-item custom-bg-primary">
-                                            <ul class="nav align-items-center fs-5">
+                                            <div class="nav align-items-center fs-5">
                                                 <i class="bi bi-lightbulb-fill mx-2"></i>
                                                 Learning to use the Godot game engine.
-                                            </ul>
+                                            </div>
                                         </li>
                                     </ul>
                             </div>
@@ -163,12 +162,12 @@
                 <hr class="border border-1">
 
                 <!-- Toolbox -->
-                <section class="m-1 py-2">
+                <section class="m-1 py-2" aria-label="My toolbox">
 
-                    <!-- TOOLBOX CARD (Should be big) -->
-                    <figure class="card custom-text-dark custom-bg-primary pb-3">
+                    <!-- Toolbox card -->
+                    <figure class="card custom-text-dark custom-bg-primary pb-3" aria-label="Toolbox card">
                         <div class="card-header">
-                            <h4 class="card-title text-center">A selection of my tools and skills</h4>
+                            <h1 class="card-title text-center">A selection of my tools and skills</h1>
                         </div>
                         <div class="card-body">
                             <div class="row row-cols-3 row-cols-sm-4 row-cols-md-5 justify-content-evenly">
@@ -341,26 +340,26 @@
                 <hr class="border border-1">
 
                 <!-- EDUCATION -->
-                <section class="m-1 py-2">  
+                <section class="m-1 py-2" aria-label="Education">  
 
                     <!-- Icon -->
-                    <div class="display-1 mb-2 text-center">
+                    <figure class="display-1 mb-2 text-center" aria-label="Mortarboard icon">
                         <i class="bi bi-mortarboard-fill"></i>
-                    </div>
+                    </figure>
 
                     <!-- Header -->
-                    <h3 class="display-5 font-title-alt custom-text-primary text-center mb-4">Education</h3>
+                    <h1 class="display-5 font-title-alt custom-text-primary text-center mb-4">Education</h1>
 
                     <div class="row row-cols-1 row-cols-md-2 align-items-center">
 
                         <!-- ITHS Card -->
-                        <figure class="col">
+                        <figure class="col" aria-label="IT-Högskolan card">
                             <div class="card custom-text-dark custom-bg-primary pb-3">
                                 <div class="card-header">
-                                    <h4 class="card-title text-center">.NET Development</h4>
+                                    <h2 class="card-title text-center">.NET Development</h2>
                                 </div>
                                 <div class="card-body">
-                                    <ul class="nav align-items-center fs-6">
+                                    <ul class="nav align-items-center fs-6" aria-label="School">
                                         <li class="mx-3">
                                             <i class="bi bi-geo-alt-fill"></i>
                                         </li>
@@ -368,20 +367,20 @@
                                             IT-Högskolan, Göteborg
                                         </li>
                                     </ul>
-                                    <ul class="nav align-items-center fs-6">
-                                        <li class="mx-3">
+                                    <ul class="nav align-items-center fs-6" aria-label="Period">
+                                        <li class="mx-3" >
                                             <i class="bi bi-calendar-fill"></i>
                                         </li>
                                         <li>
                                             2021-2023
                                         </li>
                                     </ul>
-                                    <ul class="nav align-items-center fs-6">
+                                    <ul class="nav align-items-center fs-6" aria-label="Website link">
                                         <li class="mx-3">
                                             <i class="bi bi-globe2"></i>
                                         </li>
                                         <li>
-                                            <a href="https://www.iths.se/" target="_blank" class="custom-text-dark card-link">
+                                            <a rel="noopener noreferrer" href="https://www.iths.se/" target="_blank" class="custom-text-dark card-link">
                                                 Go to their website
                                             </a>
                                         </li>
@@ -391,10 +390,10 @@
                         </figure>
 
                         <!-- GOTLAND Card -->
-                        <figure class="col">
+                        <figure class="col" aria-label="Högskolan på Gotland card">
                             <div class="card custom-text-dark custom-bg-primary pb-3">
                                 <div class="card-header">
-                                    <h4 class="card-title text-center">Game Design & Graphics</h4>
+                                    <h2 class="card-title text-center">Game Design & Graphics</h2>
                                 </div>
                                 <div class="card-body">
                                     <ul class="nav align-items-center fs-6">
@@ -418,7 +417,7 @@
                                             <i class="bi bi-globe2"></i>
                                         </li>
                                         <li>
-                                            <a href="https://www.campusgotland.uu.se/" target="_blank" class="custom-text-dark card-link">
+                                            <a rel="noopener noreferrer" href="https://www.campusgotland.uu.se/" target="_blank" class="custom-text-dark card-link">
                                                 Go to their website
                                             </a>
                                         </li>
@@ -433,53 +432,39 @@
             </section>
 
             <!-- LINKS -->
-            <section id="links" class="p-3 custom-text-primary">
+            <section id="links" class="p-3 custom-text-primary" aria-label="Links section">
 
                 <!-- Spacer -->
                 <div class="spacer"></div>
 
                 <!-- Header -->
-                <h2 class="display-3 text-center font-title-alt">Links</h2>
+                <h1 class="display-3 text-center font-title-alt">Links</h1>
 
                 <!-- LinkedIn -->
-                <figure class="col-6 ms-auto me-5 rot-card1 text-center">
+                <figure class="col-6 ms-auto me-5 rot-card1 text-center" aria-label="LinkedIn card">
                     <div class="card custom-text-dark custom-bg-primary pb-3">
                         <div class="card-header">
-                            <a href="https://www.linkedin.com/in/tobias-kallkvist/" target="_blank" class="card-link">
-                                <ul class="nav align-items-center fs-6 justify-content-center">
-                                    <li class="me-3">
-                                        <i class="bi bi-globe2"></i>
-                                    </li>
-                                    <li class="pt-1">
-                                        <h4>LinkedIn</h4>
-                                    </li>
-                                </ul>
+                            <a rel="noopener noreferrer" href="https://www.linkedin.com/in/tobias-kallkvist/" target="_blank" class="card-link nav align-items-center fs-6 justify-content-center" aria-label="LinkedIn link">
+                                <i class="me-3 bi bi-globe2"></i>
+                                <h2 class="pt-1">LinkedIn</h2>
                             </a>
                         </div>
-                        <div class="card-body pb-0">
-                            Add me to your network!
-                        </div>
+                        <p class="card-body pb-0">Add me to your network!</p>
                     </div>
                 </figure>
 
                 <!-- GitHub -->
-                <figure class="col-6 ms-5 me-auto rot-card2 text-center">
+                <figure class="col-6 ms-5 me-auto rot-card2 text-center" aria-label="GitHub card">
                     <div class="card custom-text-dark custom-bg-primary pb-3">
                         <div class="card-header align-items-center justify-content-center">
-                            <a href="https://github.com/tobkal-iths/" target="_blank" class="card-link">
-                                <ul class="nav align-items-center fs-6 justify-content-center">
-                                    <li class="me-3">
-                                        <i class="bi bi-globe2"></i>
-                                    </li>
-                                    <li class="pt-1">
-                                        <h4>GitHub</h4>
-                                    </li>
-                                </ul>
+                            <a rel="noopener noreferrer" href="https://github.com/tobkal-iths/" target="_blank" class="card-link nav align-items-center fs-6 justify-content-center" aria-label="GitHub link">
+                                <i class="me-3 bi bi-globe2"></i>
+                                <h2 class="pt-1">GitHub</h2>
                             </a>
                         </div>
-                        <div class="card-body pb-0">
+                        <p class="card-body pb-0">
                             Check out some of my work!
-                        </div>
+                        </p>
                     </div>
                 </figure>
 
@@ -489,30 +474,24 @@
             </section>
 
             <!-- CONTACT -->
-            <section id="contact" class="p-3 custom-text-primary pos-rel o-flow">
+            <section id="contact" class="p-3 custom-text-primary pos-rel o-flow" aria-label="Contact section">
 
                 <!-- Background Rect -->
-                <div class="bg-rect rect3"></div>
+                <div class="bg-rect rect3" aria-hidden="true"></div>
 
                 <!-- Spacer -->
                 <div class="spacer"></div>
 
                 <!-- Header -->
-                <h2 class="display-3 text-center font-title-alt">Contact</h2>
+                <h1 class="display-3 text-center font-title-alt">Contact</h1>
 
-                <div class="container px-2 px-md-5">
-                    <div class="mb-3">
-                        <label for="emailInput" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="subjectInput" class="form-label">Subject</label>
-                        <input type="text" class="form-control" id="subjectInput" placeholder="Your subject">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your message:</label>
-                        <textarea class="form-control" id="textInput" rows="3"></textarea>
-                    </div>
+                <div class="container px-2 px-md-5" aria-label="Contact form">
+                        <label for="emailInput" class="form-label">Email address:</label>
+                        <input type="email" class="form-control mb-3" id="emailInput" placeholder="name@example.com">
+                        <label for="subjectInput" class="form-label">Subject:</label>
+                        <input type="text" class="form-control mb-3" id="subjectInput" placeholder="Your subject">
+                        <label for="textInput" class="form-label">Message:</label>
+                        <textarea class="form-control mb-3" id="textInput" rows="3" placeholder="Your message"></textarea>
                     <div class="d-flex justify-content-end">
                         <button type="button" class="btn btn-success">Send</button>
                     </div>
@@ -525,11 +504,11 @@
         </main>
 
         <!-- Footer -->
-        <div class="container-md fixed-bottom custom-bg-secondary">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center">
+        <footer class="container-md fixed-bottom custom-bg-secondary" aria-label="Footer">
+            <div class="d-flex flex-wrap justify-content-between align-items-center">
 
                 <!-- Signature -->
-                <ul class="nav fs-4">
+                <ul class="nav fs-4" aria-label="Signature">
                     <li>
                         <i class="bi bi-person-fill custom-text-dark mx-1"></i>
                     </li>
@@ -539,25 +518,25 @@
                 </ul>
 
                 <!-- Social Links -->
-                <ul class="nav justify-content-end fs-4">
+                <ul class="nav justify-content-end fs-4" aria-label="Quick links">
                     <li>
-                        <a href="#contact">
+                        <a href="#contact" aria-label="Contact">
                             <i class="bi-envelope-fill custom-text-dark custom-hover-icon mx-1"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/tobias-kallkvist/" target="_blank">
+                        <a rel="noopener noreferrer" href="https://www.linkedin.com/in/tobias-kallkvist/" target="_blank" aria-label="LinkedIn">
                             <i class="bi-linkedin custom-text-dark custom-hover-icon mx-1"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/tobkal-iths/" target="_blank">
+                        <a rel="noopener noreferrer" href="https://github.com/tobkal-iths/" target="_blank" aria-label="GitHub">
                             <i class="bi-github custom-text-dark custom-hover-icon mx-1"></i>
                         </a>
                     </li>
                 </ul>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </div>
 
     <!-- Script -->
