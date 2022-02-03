@@ -16,14 +16,17 @@
 /* FONT FAMILIES */
 .font-title {
     font-family: 'Josefin Sans', sans-serif;
+    font-display: swap;
 }
 
 .font-title-alt {
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-display: swap;
 }
 
 .font-quote {
     font-family: 'Architects Daughter', cursive;
+    font-display: swap;
 }
 
 /* TEXT COLORS */

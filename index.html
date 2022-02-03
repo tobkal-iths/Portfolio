@@ -8,16 +8,16 @@
     <meta name="author" content="Tobias Källkvist">
     <meta name="keywords" content="Tobias, Källkvist, Portfolio, developer, programming, .NET, dotnet, HTML, CSS, JavaScript">
     <meta name="description" content=".NET-developer Tobias Källkvist's online portfolio.">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Josefin+Sans&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -30,12 +30,12 @@
         <header class="p-3 title-gradient" aria-label="Banner">
             <div class="container justify-content-around">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-6 col-md-6 text-end">
+                    <div class="col-6 text-end">
                         <h1 class="display-1 custom-text-primary font-title">Tobias Källkvist</h1>
                         <h2 class="display-6 custom-text-secondary font-title-alt">Portfolio</h2>
                     </div>
                     <div class="col-6 col-md-4 d-none d-sm-block">
-                        <img class="img-fluid" src="assets/svg/pine_logo.svg" alt="Stylized silhouette of a bird in the sky and three mushrooms beneath a pine tree.">
+                        <img class="img-fluid w-100 h-auto" src="assets/svg/pine_logo.svg" alt="Stylized silhouette of a bird in the sky and three mushrooms beneath a pine tree.">
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
 
                 <!-- Portrait -->
                 <figure class="col-4 col-md-3 col-xl-2 float-end border-light rounded border border-4 m-3" aria-label="Portrait">
-                    <img class="img-fluid" src="assets/img/portrait_256.png" alt="Portrait of Tobias.">
+                    <img class="img-fluid w-100 h-auto" src="assets/img/portrait_256.png" alt="Portrait of Tobias.">
                 </figure>
 
                 <!-- Introduction -->
@@ -107,7 +107,7 @@
             </section>
 
             <!-- Résumé -->
-            <section id="resume" class="p-3 custom-text-primary pos-rel o-flow" aria-label="Résumé section">
+            <section id="resume" class="p-3 mt-5 mb-5 custom-text-primary pos-rel o-flow" aria-label="Résumé section">
 
                 <!-- Background rects -->
                 <div class="bg-rect rect1" aria-hidden="true"></div>
@@ -117,41 +117,35 @@
                 <div class="spacer"></div>
 
                 <!-- Header -->
-                <h1 class="font-title-alt display-3 text-center">Résumé</h1>
+                <h1 class="font-title-alt display-3 text-center mb-0 mb-md-5 mb-lg-0">Résumé</h1>
 
                 <!-- Current projects -->
                 <section class="container" aria-label="Current projects">
                     <div class="row row-cols-1 row-cols-md-2 align-items-center justify-content-md-evenly">
                         
                         <!-- Skill icon -->
-                        <figure class="col-10 col-md col-lg-6 m-auto p-5" aria-label="Icon">
-                                <img class="img-fluid d-block m-auto" src="assets/svg/skill_icon.svg" alt="Stylized icon of a pen and wrench crossed over a gear cog.">
+                        <figure class="col-10 col-md col-lg-6 m-auto" aria-label="Icon">
+                                <img class="img-fluid d-block m-auto w-100 h-auto" src="assets/svg/skill_icon.svg" alt="Stylized icon of a pen and wrench crossed over a gear cog.">
                         </figure>
                         
                         <!-- Projects card -->
-                        <figure class="col rot-card2 p-5" aria-label="Projects card">
+                        <figure class="col rot-card2" aria-label="Projects card">
                             <div class="card custom-text-dark custom-bg-primary pb-3">
                                 <div class="card-header">
                                     <h2 class="card-title text-center">Currently working on...</h2>
                                 </div>
-                                    <ul class="list-group list-group-flush">
+                                    <ul class="list-group list-group-flush fs-5">
                                         <li class="list-group-item custom-bg-primary"">
-                                            <div class="nav align-items-center fs-5">
-                                                <i class="bi bi-bookmarks-fill mx-2"></i>
-                                                Finishing up my .NET studies.
-                                            </div>
+                                            <i class="bi bi-bookmarks-fill mx-2"></i>
+                                            Finishing up my .NET studies.
                                         </li>
                                         <li class="list-group-item custom-bg-primary">
-                                            <div class="nav align-items-center fs-5">
-                                                <i class="bi bi-heart-fill mx-2"></i>
-                                                Brushing up on my illustration skills.
-                                            </div>
+                                            <i class="bi bi-heart-fill mx-2"></i>
+                                            Brushing up on my illustration skills.
                                         </li>
                                         <li class="list-group-item custom-bg-primary">
-                                            <div class="nav align-items-center fs-5">
-                                                <i class="bi bi-lightbulb-fill mx-2"></i>
-                                                Learning to use the Godot game engine.
-                                            </div>
+                                            <i class="bi bi-lightbulb-fill mx-2"></i>
+                                            Learning to use the Godot game engine.
                                         </li>
                                     </ul>
                             </div>
@@ -175,7 +169,7 @@
                                 <!-- .NET -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_dotnet.svg" alt="dotNet logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_dotnet.svg" alt="dotNet logo">
                                     </div>
                                     <div class="fs-6">.NET</div>
                                 </div>
@@ -183,7 +177,7 @@
                                 <!-- C# -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_csharp.svg" alt="C-sharp logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_csharp.svg" alt="C-sharp logo">
                                     </div>
                                     <div class="fs-6">C#</div>
                                 </div>
@@ -191,7 +185,7 @@
                                 <!-- HTML -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_html.svg" alt="HTML5 logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_html.svg" alt="HTML5 logo">
                                     </div>
                                     <div class="fs-6">HTML</div>
                                 </div>
@@ -199,7 +193,7 @@
                                 <!-- CSS -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_css.svg" alt="CSS3 logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_css.svg" alt="CSS3 logo">
                                     </div>
                                     <div class="fs-6">CSS</div>
                                 </div>
@@ -207,7 +201,7 @@
                                 <!-- SQL -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_sql.svg" alt="SQL logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_sql.svg" alt="SQL logo">
                                     </div>
                                     <div class="fs-6">SQL</div>
                                 </div>
@@ -215,7 +209,7 @@
                                 <!-- MONGO DB -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_mongodb.svg" alt="MongoDB logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_mongodb.svg" alt="MongoDB logo">
                                     </div>
                                     <div class="fs-6">MongoDB</div>
                                 </div>
@@ -223,7 +217,7 @@
                                 <!-- GIT -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_git.svg" alt="Git logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_git.svg" alt="Git logo">
                                     </div>
                                     <div class="fs-6">GIT</div>
                                 </div>
@@ -231,7 +225,7 @@
                                 <!-- GITHUB -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_github.svg" alt="GitHub logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_github.svg" alt="GitHub logo">
                                     </div>
                                     <div class="fs-6">GitHub</div>
                                 </div>
@@ -239,7 +233,7 @@
                                 <!-- CLI -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_terminal.svg" alt="Terminal logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_terminal.svg" alt="Terminal logo">
                                     </div>
                                     <div class="fs-6">CLI</div>
                                 </div>
@@ -247,7 +241,7 @@
                                 <!-- LINUX -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_tux.svg" alt="Tux logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_tux.svg" alt="Tux logo">
                                     </div>
                                     <div class="fs-6">Linux</div>
                                 </div>
@@ -255,7 +249,7 @@
                                 <!-- Adobe -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_adobe.svg" alt="Adobe logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_adobe.svg" alt="Adobe logo">
                                     </div>
                                     <div class="fs-6">Adobe Suite</div>
                                 </div>
@@ -263,7 +257,7 @@
                                 <!-- BLENDER -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_blender.svg" alt="Blender logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_blender.svg" alt="Blender logo">
                                     </div>
                                     <div class="fs-6">Blender</div>
                                 </div>
@@ -271,7 +265,7 @@
                                 <!-- 3DS MAX -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_3dsmax.svg" alt="3ds max logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_3dsmax.svg" alt="3ds max logo">
                                     </div>
                                     <div class="fs-6">3DS Max</div>
                                 </div>
@@ -279,7 +273,7 @@
                                 <!-- KRITA -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_krita.svg" alt="Krita logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_krita.svg" alt="Krita logo">
                                     </div>
                                     <div class="fs-6">Krita</div>
                                 </div>
@@ -287,7 +281,7 @@
                                 <!-- INKSCAPE -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_inkscape.svg" alt="Inkscape logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_inkscape.svg" alt="Inkscape logo">
                                     </div>
                                     <div class="fs-6">Inkscape</div>
                                 </div>
@@ -295,7 +289,7 @@
                                 <!-- PLACEHOLDER TOOL -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
                                     </div>
                                     <div class="fs-6">PLACEHOLDER</div>
                                 </div>
@@ -303,7 +297,7 @@
                                 <!-- PLACEHOLDER TOOL -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
                                     </div>
                                     <div class="fs-6">PLACEHOLDER</div>
                                 </div>
@@ -311,7 +305,7 @@
                                 <!-- PLACEHOLDER TOOL -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
                                     </div>
                                     <div class="fs-6">PLACEHOLDER</div>
                                 </div>
@@ -319,7 +313,7 @@
                                 <!-- PLACEHOLDER TOOL -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
                                     </div>
                                     <div class="fs-6">PLACEHOLDER</div>
                                 </div>
@@ -327,7 +321,7 @@
                                 <!-- PLACEHOLDER TOOL -->
                                 <div class="col custom-bg-primary custom-text-dark text-center mb-5">
                                     <div class="col-8 m-auto">
-                                        <img class="img-fluid d-block m-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
+                                        <img class="img-fluid w-100 h-auto" src="assets/svg/logo_placeholder.svg" alt="Placeholder logo">
                                     </div>
                                     <div class="fs-6">PLACEHOLDER</div>
                                 </div>
